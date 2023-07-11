@@ -26,8 +26,10 @@ export function Profile() {
           </div>
         </div>
         <div className="flex  pt-4 justify-end pe-4 py-2 w-full">
-          <button className="border-2 border-sky-600 w-fit rounded-full p-2 px-4 hover:bg-sky-600/10">
-            <span className="text-sky-600 font-bold text-xl">Edit Profile</span>
+          <button className="border-2 border-sky-400 w-fit rounded-full p-2 px-4 hover:bg-sky-400/20">
+            <span className="text-sky-400 font-semibold text-lg">
+              Edit Profile
+            </span>
           </button>
         </div>
 

@@ -4,7 +4,7 @@ import { News } from "./News";
 
 export function Search() {
   return (
-    <div className="flex flex-col w-[30%] z-50 h-screen bg-blue-700/10 ">
+    <div className="flex flex-col w-[30%] z-50 h-screen">
       <form>
         <div className="px-4 pt-4 flex relative items center">
           <AiOutlineSearch className="text-3xl text-zinc-400 absolute left-7 top-6 " />
@@ -29,13 +29,11 @@ export function Search() {
                 <div className="flex gap-2 px-4 py-3 border-t border-zinc-500/50 relative">
                   <div className="bg-zinc-500 h-14 w-14 rounded-full"></div>
                   <div className="flex flex-col ">
-                    <h2 className="text-white text-lg font-bold">
-                      Donald J. Trump
-                    </h2>
-                    <p className="text-zinc-400 text-base">@realDonaldTrump</p>
+                    <h2 className="text-white  font-bold">Donald J. Trump</h2>
+                    <p className="text-zinc-400 text-sm">@realDonaldTrump</p>
                   </div>
 
-                  <button className=" text-sky-400 font-bold border-2 border-sky-400 px-6 py-1 rounded-full absolute right-4 top-5 hover:bg-sky-800/30">
+                  <button className=" text-sky-400 font-semibold border-2 border-sky-400 px-4 py-1 rounded-full absolute right-4 top-5 hover:bg-sky-800/30">
                     Follow
                   </button>
                 </div>
